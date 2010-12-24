@@ -24,3 +24,778 @@ Migrating to CreateProducts (20101224142035)
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 15:40:51) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 87ms (View: 82, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 15:40:54) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 15:41:21) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 15:43:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"GI4+4sUHj0zcDFoEq2z0QrpdEQKvib3YO7xIf6fDzTg=", "product"=>{"image_url"=>"", "title"=>"Droga Cienia ", "description"=>"<p>\r\nDla Durzo Blinta zabijanie to sztuka, a w tym mieście on jest największym artystą. Dla Merkuriusza przetrwanie nie jest rzeczą pewną. Nie ma żadnej gwarancji przeżycia. Jako szczur ...\r\n</p>"}}
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("created_at", "title", "image_url", "updated_at", "description") VALUES('2010-12-24 14:43:10', 'Droga Cienia ', '', '2010-12-24 14:43:10', '<p>
+Dla Durzo Blinta zabijanie to sztuka, a w tym mieście on jest największym artystą. Dla Merkuriusza przetrwanie nie jest rzeczą pewną. Nie ma żadnej gwarancji przeżycia. Jako szczur ...
+</p>')[0m
+Redirected to http://localhost:3000/products/1
+Completed in 152ms (DB: 0) | 302 Found [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-24 15:43:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2010-12-24 15:43:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/products/1/edit]
+
+
+Processing ProductsController#update (for 127.0.0.1 at 2010-12-24 15:43:38) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"GI4+4sUHj0zcDFoEq2z0QrpdEQKvib3YO7xIf6fDzTg=", "id"=>"1", "product"=>{"image_url"=>"/obrazki/okladka-450.jpg", "title"=>"Droga Cienia ", "description"=>"<p>\r\nDla Durzo Blinta zabijanie to sztuka, a w tym mieście on jest największym artystą. Dla Merkuriusza przetrwanie nie jest rzeczą pewną. Nie ma żadnej gwarancji przeżycia. Jako szczur ...\r\n</p>"}}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mProduct Update (0.2ms)[0m   [0mUPDATE "products" SET "updated_at" = '2010-12-24 14:43:38', "image_url" = '/obrazki/okladka-450.jpg' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/products/1
+Completed in 175ms (DB: 0) | 302 Found [http://localhost/products/1]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-24 15:43:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 15:44:37) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://localhost/products]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20101224142035)
+Migrating to AddPriceToProduct (20101224173741)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20101224142035)
+Migrating to AddPriceToProduct (20101224173741)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mALTER TABLE "products" ADD "price" decimal(8,2) DEFAULT 0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101224173741')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 19:09:21) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 153ms (View: 148, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 19:16:20) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 19:16:29) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-24 19:16:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/products/1]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 19:22:37) [GET]
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 19:22:40) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:22:41) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:25:12) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 67ms (View: 14, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:25:17) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"-1", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:25:35) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"a", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 23ms (View: 16, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:25:39) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"-1", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 19:29:51) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 19:29:55) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:29:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 67ms (View: 15, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:30:05) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.1", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:30:09) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"-1", "image_url"=>"", "title"=>"", "description"=>""}}
+Rendering template within layouts/products
+Rendering products/new
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:35:24) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"-1", "image_url"=>"", "title"=>"", "description"=>""}}
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NameError (undefined local variable or method `message' for #<Class:0xb6bcb838>):
+  app/models/product.rb:7
+  app/controllers/products_controller.rb:43:in `create'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 19:35:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"-1", "image_url"=>"", "title"=>"", "description"=>""}}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = '') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 19:36:09) [GET]
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 19:36:19) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/products/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProducts (20101224142035)
+Migrating to AddPriceToProduct (20101224173741)
+Migrating to AddTestData (20101224184108)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mProduct Delete all (0.3ms)[0m   [0mDELETE FROM "products" WHERE 1=1[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Project Automation') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("price", "created_at", "title", "image_url", "updated_at", "description") VALUES(29.95, '2010-12-24 18:48:35', 'Pragmatic Project Automation', '/images/auto.jpg', '2010-12-24 18:48:35', '<p>
+ <em>Pragmatic Project Automation</em> shows you how to improve the 
+ consistency and repeatability of your project''s procedures using 
+ automation to reduce risk and errors.
+ </p>
+ <p>
+ Simply put, we''re going to put this thing called a computer to work 
+ for you doing the mundane (but important) project stuff. That means 
+ you''ll have more time and energy to do the really 
+ exciting---and difficult---stuff, like writing quality code.
+ </p>')[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Version Control') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("price", "created_at", "title", "image_url", "updated_at", "description") VALUES(28.5, '2010-12-24 18:48:35', 'Pragmatic Version Control', '/images/svn.jpg', '2010-12-24 18:48:35', '<p>
+ This book is a recipe-based approach to using Subversion that will 
+ get you up and running quickly---and correctly. All projects need
+ version control: it''s a foundational piece of any project''s 
+ infrastructure. Yet half of all project teams in the U.S. don''t use
+ any version control at all. Many others don''t use it well, and end 
+ up experiencing time-consuming problems.
+ </p>')[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Unit Testing (C#)') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("price", "created_at", "title", "image_url", "updated_at", "description") VALUES(27.75, '2010-12-24 18:48:35', 'Pragmatic Unit Testing (C#)', '/images/utc.jpg', '2010-12-24 18:48:35', '<p>
+ Pragmatic programmers use feedback to drive their development and 
+ personal processes. The most valuable feedback you can get while 
+ coding comes from unit testing.
+ </p>
+ <p>
+ Without good tests in place, coding can become a frustrating game of 
+ "whack-a-mole." That''s the carnival game where the player strikes at a 
+ mechanical mole; it retreats and another mole pops up on the opposite side 
+ of the field. The moles pop up and down so fast that you end up flailing 
+ your mallet helplessly as the moles continue to pop up where you least 
+ expect them.
+ </p>')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101224184108')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("products")[0m
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 20:06:50) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+ERROR: compiling _run_erb_app47views47products47index46html46erb RAISED compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/products/index.html.erb:22: syntax error, unexpected kENSURE, expecting kEND
+/home/rafal/public_html/rubyonrails/depot/app/views/products/index.html.erb:24: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47products47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"product-list\">\n<h1>Listing products</h1>\n\n<table>\n        "
+
+
+
+;  for product in @products  ; @output_buffer.concat "\n                <tr class=\""
+; @output_buffer.concat(( cycle('list-line-odd', 'list-line-even') ).to_s); @output_buffer.concat "\">\n                        <td>\n                                "
+
+; @output_buffer.concat(( image_tag product.image_url, :class=> 'list-image' ).to_s); @output_buffer.concat "\n                        </td>\n                        <td class=\"list-description\">\n                                \n                        </td>\n                        \n                </tr>\n\n</table>\n</div>\n<br />\n\n"
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to 'New product', new_product_path ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/rafal/public_html/rubyonrails/depot/app/views/products/index.html.erb:24:in `compile!'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/rafal/public_html/rubyonrails/depot/app/controllers/products_controller.rb:7:in `index'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/commands/server.rb:111
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/products/index.html.erb:22: syntax error, unexpected kENSURE, expecting kEND
+/home/rafal/public_html/rubyonrails/depot/app/views/products/index.html.erb:24: syntax error, unexpected $end, expecting kEND) on line #22 of app/views/products/index.html.erb:
+19: 
+20: <%= link_to 'New product', new_product_path %>
+
+    app/views/products/index.html.erb:24:in `compile!'
+    app/controllers/products_controller.rb:7:in `index'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (107.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 20:07:12) [GET]
+  [4;35;1mProduct Load (1.3ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #13 of app/views/products/index.html.erb:
+10:                         <td class="list-description">
+11:                                 <dl>
+12:                                         <dt><%= h product.title %></dt>
+13:                                         <dd><%= h truncate(product.description.gsub(/<.*?>/,'')), :length => 80 %></dd>
+14:                                 </dl>
+15:                                 
+16:                         </td>
+
+    app/views/products/index.html.erb:13:in `h'
+    app/views/products/index.html.erb:13
+    app/views/products/index.html.erb:5:in `each'
+    app/views/products/index.html.erb:5
+    app/controllers/products_controller.rb:7:in `index'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (54.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 20:10:09) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 23ms (View: 18, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 20:10:23) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 24ms (View: 17, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 20:11:23) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-24 22:11:48) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/products/4]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 22:19:33) [GET]
+
+ArgumentError (Range unspecified.  Specify the :within, :maximum, :minimum, or :is option.):
+  app/models/product.rb:3
+  app/controllers/products_controller.rb:5:in `index'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 22:23:02) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 25ms (View: 18, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 22:23:05) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 22:23:08) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = '') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 30ms (View: 21, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 22:24:47) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 22:24:50) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 22:24:54) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = '') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 96ms (View: 21, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 22:25:53) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 22:25:55) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 22:25:57) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = '') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 28ms (View: 19, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 22:27:59) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"", "description"=>""}}
+
+SyntaxError (/home/rafal/public_html/rubyonrails/depot/app/models/product.rb:5: syntax error, unexpected ':', expecting kEND
+        validates_uniqueness_of :title :message => "should be unique"
+                                        ^):
+  app/controllers/products_controller.rb:43:in `create'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (95.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 22:29:44) [GET]
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-12-24 22:29:50) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 22:29:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"0.0", "image_url"=>"", "title"=>"Pragmatic Project Automation", "description"=>""}}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Project Automation') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2010-12-24 22:35:30) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I=", "product"=>{"price"=>"gg", "image_url"=>"", "title"=>"Pragmatic Project Automation", "description"=>""}}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."title" = 'Pragmatic Project Automation') LIMIT 1[0m
+Rendering template within layouts/products
+Rendering products/new
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:43:40) [GET]
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:45:00) [GET]
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:45:15) [GET]
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:45:15) [GET]
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:45:19) [GET]
+
+ActionController::RoutingError (No route matches "/store/" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:45:24) [GET]
+
+ActionController::RoutingError (No route matches "/store/index" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-24 22:47:02) [GET]
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-24 22:47:42) [GET]
+Rendering store/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
