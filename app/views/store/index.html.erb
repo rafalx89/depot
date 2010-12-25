@@ -1,0 +1,16 @@
+<h1 id="">Your Pragmatic Catalog</h1>
+<% if @counter > 5  %>
+        You visit this page <%=pluralize @counter, 'time' %>.
+<% end  %>
+<% for product in @products  %>
+        <div class="entry">
+                <%=link_to  image_tag(product.image_url), :action => 'add_to_cart', :id => product, :method => :post   %>
+                <h3 id=""><%= h product.title %></h3>
+                <%= product.description %>
+                <div class="price-line">
+                        <span class="price"><%= number_to_currency(product.price) %></span>
+                        <%= button_to "Add to Cart", :action => 'add_to_cart', :id => product %>
+                </div>
+                <br/>
+        </div>
+<% end  %>
