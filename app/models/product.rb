@@ -1,4 +1,9 @@
 class Product < ActiveRecord::Base
+
+        def self.find_products_for_sale
+                find(:all, :order => 'title')
+        end
+
         validates_presence_of :title, :description, :image_url
         validates_length_of :title, :minimum =>10, :too_short => "should be longer than 10 characters"
         validates_numericality_of :price, :message => "should be a number"

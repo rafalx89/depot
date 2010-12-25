@@ -799,3 +799,1118 @@ Rendering rescues/layout (not_found)
 Processing StoreController#index (for 127.0.0.1 at 2010-12-24 22:47:42) [GET]
 Rendering store/index
 Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-24 23:15:43) [GET]
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 24ms (View: 18, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-24 23:16:14) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 13ms (View: 7, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-24 23:16:30) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering store/index
+Completed in 18ms (View: 7, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-24 23:18:38) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 30ms (View: 24, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-24 23:18:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/products/2]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:17:40) [GET]
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined method `stylesheet_ling_tag' for #<ActionView::Base:0xb6bfc924>) on line #7 of app/views/layouts/store.html.erb:
+4: <html>
+5:         <head>
+6:                 <title>Pragprog Books Online Store</title>
+7:                 <%= stylesheet_ling_tag "depot", :media => "all" %>
+8:         </head>
+9:         <body id="store">
+10:                 <div id="banner">
+
+    app/views/layouts/store.html.erb:7
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:18:12) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:20:17) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 17ms (View: 12, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-25 00:23:28) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2010-12-25 00:23:46) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/products/3/edit]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-25 00:24:03) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/products]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-25 00:26:50) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/products]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:26:55) [GET]
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:32:40) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:32:42) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:32:44) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:32:46) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:32:47) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:32:49) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:40:25) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 65ms (View: 60, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:41:12) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 00:46:45) [GET]
+
+SyntaxError (/home/rafal/public_html/rubyonrails/depot/app/controllers/store_controller.rb:5: syntax error, unexpected tUPLUS, expecting kEND
+...time1.year +"-"+@time1.month +"-"+@time1.day+" "+@time1.hour...
+                              ^):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:50:06) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NoMethodError (undefined method `xmlschema' for #<StoreController:0xb71ac914>):
+  app/controllers/store_controller.rb:4:in `index'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (96.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:52:54) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NameError (uninitialized constant StoreController::DataTime):
+  app/controllers/store_controller.rb:4:in `index'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:52:55) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+
+NameError (uninitialized constant StoreController::DataTime):
+  app/controllers/store_controller.rb:4:in `index'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:52:57) [GET]
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+NameError (uninitialized constant StoreController::DataTime):
+  app/controllers/store_controller.rb:4:in `index'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:54:08) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 13, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:58:18) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/store_controller.rb:5:in `index'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:58:55) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 00:59:49) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 18ms (View: 12, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:08:10) [GET]
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47layouts47store46html46erb RAISED compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ink_to image_tag("logo.png") "/site" :method => :post ).to_s...
+                              ^
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...mage_tag("logo.png") "/site" :method => :post ).to_s); @outp...
+                              ^
+Function body:           def _run_erb_app47views47layouts47store46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html>\n        <head>\n                <title>Pragprog Books Online Store</title>\n                "
+
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag "depot", :media => "all" ).to_s); @output_buffer.concat "\n        </head>\n        <body id=\"store\">\n                <div id=\"banner\">\n                        "
+
+
+
+; @output_buffer.concat(( link_to image_tag("logo.png") "/site" :method => :post ).to_s); @output_buffer.concat "\n                        "
+; @output_buffer.concat(( @page_title || "Pragmatic Bookshelf" ).to_s); @output_buffer.concat "\n                </div>\n                <div id=\"columns\">\n                        <div id=\"side\">\n                                <a href=\"http://www....\">Home</a><br/>\n                                <a href=\"http://www..../faq\">Questions</a><br/>\n                                <a href=\"http://www..../news\">News</a><br/>\n                                <a href=\"http://www..../contact\">Contact</a><br/><br/>\n                                <span style=\"color: white;\">"
+
+
+
+
+
+
+
+; @output_buffer.concat(( @time ).to_s); @output_buffer.concat "</span>\n                        </div>\n                         <div id=\"main\">\n                                 "
+
+
+; @output_buffer.concat(( yield :layout ).to_s); @output_buffer.concat "\n                         </div>\n                </div>\n        </body>\n</html>\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:31:in `compile!'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/commands/server.rb:111
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting ')'
+...ink_to image_tag("logo.png") "/site" :method => :post ).to_s...
+                              ^
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...mage_tag("logo.png") "/site" :method => :post ).to_s); @outp...
+                              ^) on line #11 of app/views/layouts/store.html.erb:
+8:         </head>
+9:         <body id="store">
+10:                 <div id="banner">
+11:                         <%= link_to image_tag("logo.png") "/site" :method => :post %>
+12:                         <%= @page_title || "Pragmatic Bookshelf" %>
+13:                 </div>
+14:                 <div id="columns">
+
+    app/views/layouts/store.html.erb:31:in `compile!'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:09:18) [GET]
+  [4;36;1mProduct Load (0.8ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47layouts47store46html46erb RAISED compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...tag("logo.png").to_s "/site" :method => :post ).to_s); @outp...
+                              ^
+Function body:           def _run_erb_app47views47layouts47store46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html>\n        <head>\n                <title>Pragprog Books Online Store</title>\n                "
+
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag "depot", :media => "all" ).to_s); @output_buffer.concat "\n        </head>\n        <body id=\"store\">\n                <div id=\"banner\">\n                        "
+
+
+
+; @output_buffer.concat(( link_to image_tag("logo.png").to_s "/site" :method => :post ).to_s); @output_buffer.concat "\n                        "
+; @output_buffer.concat(( @page_title || "Pragmatic Bookshelf" ).to_s); @output_buffer.concat "\n                </div>\n                <div id=\"columns\">\n                        <div id=\"side\">\n                                <a href=\"http://www....\">Home</a><br/>\n                                <a href=\"http://www..../faq\">Questions</a><br/>\n                                <a href=\"http://www..../news\">News</a><br/>\n                                <a href=\"http://www..../contact\">Contact</a><br/><br/>\n                                <span style=\"color: white;\">"
+
+
+
+
+
+
+
+; @output_buffer.concat(( @time ).to_s); @output_buffer.concat "</span>\n                        </div>\n                         <div id=\"main\">\n                                 "
+
+
+; @output_buffer.concat(( yield :layout ).to_s); @output_buffer.concat "\n                         </div>\n                </div>\n        </body>\n</html>\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:31:in `compile!'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/commands/server.rb:111
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...tag("logo.png").to_s "/site" :method => :post ).to_s); @outp...
+                              ^) on line #11 of app/views/layouts/store.html.erb:
+8:         </head>
+9:         <body id="store">
+10:                 <div id="banner">
+11:                         <%= link_to image_tag("logo.png").to_s "/site" :method => :post %>
+12:                         <%= @page_title || "Pragmatic Bookshelf" %>
+13:                 </div>
+14:                 <div id="columns">
+
+    app/views/layouts/store.html.erb:31:in `compile!'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:09:19) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47layouts47store46html46erb RAISED compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...tag("logo.png").to_s "/site" :method => :post ).to_s); @outp...
+                              ^
+Function body:           def _run_erb_app47views47layouts47store46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html>\n        <head>\n                <title>Pragprog Books Online Store</title>\n                "
+
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag "depot", :media => "all" ).to_s); @output_buffer.concat "\n        </head>\n        <body id=\"store\">\n                <div id=\"banner\">\n                        "
+
+
+
+; @output_buffer.concat(( link_to image_tag("logo.png").to_s "/site" :method => :post ).to_s); @output_buffer.concat "\n                        "
+; @output_buffer.concat(( @page_title || "Pragmatic Bookshelf" ).to_s); @output_buffer.concat "\n                </div>\n                <div id=\"columns\">\n                        <div id=\"side\">\n                                <a href=\"http://www....\">Home</a><br/>\n                                <a href=\"http://www..../faq\">Questions</a><br/>\n                                <a href=\"http://www..../news\">News</a><br/>\n                                <a href=\"http://www..../contact\">Contact</a><br/><br/>\n                                <span style=\"color: white;\">"
+
+
+
+
+
+
+
+; @output_buffer.concat(( @time ).to_s); @output_buffer.concat "</span>\n                        </div>\n                         <div id=\"main\">\n                                 "
+
+
+; @output_buffer.concat(( yield :layout ).to_s); @output_buffer.concat "\n                         </div>\n                </div>\n        </body>\n</html>\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:31:in `compile!'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/commands/server.rb:111
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...tag("logo.png").to_s "/site" :method => :post ).to_s); @outp...
+                              ^) on line #11 of app/views/layouts/store.html.erb:
+8:         </head>
+9:         <body id="store">
+10:                 <div id="banner">
+11:                         <%= link_to image_tag("logo.png").to_s "/site" :method => :post %>
+12:                         <%= @page_title || "Pragmatic Bookshelf" %>
+13:                 </div>
+14:                 <div id="columns">
+
+    app/views/layouts/store.html.erb:31:in `compile!'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (101.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:09:20) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47layouts47store46html46erb RAISED compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...tag("logo.png").to_s "/site" :method => :post ).to_s); @outp...
+                              ^
+Function body:           def _run_erb_app47views47layouts47store46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html>\n        <head>\n                <title>Pragprog Books Online Store</title>\n                "
+
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag "depot", :media => "all" ).to_s); @output_buffer.concat "\n        </head>\n        <body id=\"store\">\n                <div id=\"banner\">\n                        "
+
+
+
+; @output_buffer.concat(( link_to image_tag("logo.png").to_s "/site" :method => :post ).to_s); @output_buffer.concat "\n                        "
+; @output_buffer.concat(( @page_title || "Pragmatic Bookshelf" ).to_s); @output_buffer.concat "\n                </div>\n                <div id=\"columns\">\n                        <div id=\"side\">\n                                <a href=\"http://www....\">Home</a><br/>\n                                <a href=\"http://www..../faq\">Questions</a><br/>\n                                <a href=\"http://www..../news\">News</a><br/>\n                                <a href=\"http://www..../contact\">Contact</a><br/><br/>\n                                <span style=\"color: white;\">"
+
+
+
+
+
+
+
+; @output_buffer.concat(( @time ).to_s); @output_buffer.concat "</span>\n                        </div>\n                         <div id=\"main\">\n                                 "
+
+
+; @output_buffer.concat(( yield :layout ).to_s); @output_buffer.concat "\n                         </div>\n                </div>\n        </body>\n</html>\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:31:in `compile!'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:352:in `_render_with_layout'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/commands/server.rb:111
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/layouts/store.html.erb:11: syntax error, unexpected ':', expecting ')'
+...tag("logo.png").to_s "/site" :method => :post ).to_s); @outp...
+                              ^) on line #11 of app/views/layouts/store.html.erb:
+8:         </head>
+9:         <body id="store">
+10:                 <div id="banner">
+11:                         <%= link_to image_tag("logo.png").to_s "/site" :method => :post %>
+12:                         <%= @page_title || "Pragmatic Bookshelf" %>
+13:                 </div>
+14:                 <div id="columns">
+
+    app/views/layouts/store.html.erb:31:in `compile!'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:10:16) [GET]
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 20ms (View: 15, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:10:44) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 21ms (View: 15, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 01:10:51) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+
+ActionController::RoutingError (No route matches "/cos" with {:method=>:post}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:11:18) [GET]
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:12:05) [GET]
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 22ms (View: 18, DB: 1) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 01:12:08) [POST]
+  Parameters: {"authenticity_token"=>"IjELPu7vio9kEvBMET8tiToouZntlsAGXUJzRNCVV3I="}
+
+ActionController::RoutingError (No route matches "/site" with {:method=>:post}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:14:55) [GET]
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+ERROR: compiling _run_erb_app47views47store47index46html46erb RAISED compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:4: syntax error, unexpected '=', expecting ')'
+...), "/site", :method => :post =begin "do zmiany"  =end  ).to_...
+                              ^
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:4: syntax error, unexpected '=', expecting kEND
+...=> :post =begin "do zmiany"  =end  ).to_s); @output_buffer.c...
+                              ^
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:15: syntax error, unexpected kENSURE, expecting ')'
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:17: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47store47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1 id=\"\">Your Pragmatic Catalog</h1>\n"
+;  for product in @products  ; @output_buffer.concat "\n        <div class=\"entry\">\n                "
+
+; @output_buffer.concat((link_to  image_tag(product.image_url), "/site", :method => :post =begin "do zmiany"  =end  ).to_s); @output_buffer.concat "\n                <h3 id=\"\">"
+; @output_buffer.concat(( h product.title ).to_s); @output_buffer.concat "</h3>\n                "
+; @output_buffer.concat(( product.description ).to_s); @output_buffer.concat "\n                <div class=\"price-line\">\n                        <span class=\"price\">"
+
+; @output_buffer.concat(( number_to_currency(product.price) ).to_s); @output_buffer.concat "</span>\n                        "
+; @output_buffer.concat(( button_to "Add to Cart" ).to_s); @output_buffer.concat "\n                </div>\n                <br/>\n        </div>\n"
+
+
+
+;  end  ; @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:17:in `compile!'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/home/rafal/.rvm/gems/ruby-1.8.7-p302/gems/rails-2.3.5/lib/commands/server.rb:111
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:4: syntax error, unexpected '=', expecting ')'
+...), "/site", :method => :post =begin "do zmiany"  =end  ).to_...
+                              ^
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:4: syntax error, unexpected '=', expecting kEND
+...=> :post =begin "do zmiany"  =end  ).to_s); @output_buffer.c...
+                              ^
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:15: syntax error, unexpected kENSURE, expecting ')'
+/home/rafal/public_html/rubyonrails/depot/app/views/store/index.html.erb:17: syntax error, unexpected kEND, expecting ')') on line #4 of app/views/store/index.html.erb:
+1: <h1 id="">Your Pragmatic Catalog</h1>
+2: <% for product in @products  %>
+3:         <div class="entry">
+4:                 <%=link_to  image_tag(product.image_url), "/site", :method => :post =begin "do zmiany"  =end  %>
+5:                 <h3 id=""><%= h product.title %></h3>
+6:                 <%= product.description %>
+7:                 <div class="price-line">
+
+    app/views/store/index.html.erb:17:in `compile!'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:15:14) [GET]
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 21ms (View: 16, DB: 1) | 200 OK [http://localhost/store]
