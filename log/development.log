@@ -1914,6 +1914,7 @@ Processing StoreController#index (for 127.0.0.1 at 2010-12-25 01:15:14) [GET]
 Rendering template within layouts/store
 Rendering store/index
 Completed in 21ms (View: 16, DB: 1) | 200 OK [http://localhost/store]
+<<<<<<< HEAD
 
 
 Processing StoreController#index (for 127.0.0.1 at 2010-12-25 14:38:03) [GET]
@@ -4116,3 +4117,2743 @@ Rendered store/_cart_item (0.9ms)
 Rendered store/_cart_item (0.8ms)
 Rendered store/_cart (6.4ms)
 Completed in 50ms (View: 29, DB: 2) | 200 OK [http://localhost/store]
+=======
+>>>>>>> origin/master
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:10:53) [GET]
+
+SyntaxError (/home/rafal/public_html/rubyonrails/depot/app/controllers/store_controller.rb:4: syntax error, unexpected tLSHFT, expecting kEND
+<<<<<<< HEAD
+  ^
+/home/rafal/public_html/rubyonrails/depot/app/controllers/store_controller.rb:39: syntax error, unexpected tEQQ, expecting kEND
+=======
+   ^
+/home/rafal/public_html/rubyonrails/depot/app/controllers/store_controller.rb:42: syntax error, unexpected tRSHFT, expecting kEND
+>>>>>>> origin/master
+  ^):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (137.8ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:11:38) [GET]
+  [4;36;1mProduct Load (1.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (13.0ms)
+Completed in 114ms (View: 82, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:11:45) [GET]
+
+SyntaxError (/home/rafal/public_html/rubyonrails/depot/app/controllers/products_controller.rb:22: syntax error, unexpected tLSHFT, expecting kEND
+<<<<<<< HEAD
+  ^
+/home/rafal/public_html/rubyonrails/depot/app/controllers/products_controller.rb:28: syntax error, unexpected tEQQ, expecting kEND
+=======
+   ^):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (87.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-25 23:12:36) [GET]
+  [4;35;1mProduct Load (1.1ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 67ms (View: 55, DB: 2) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-25 23:12:39) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering template within layouts/products
+Rendering products/show
+Completed in 32ms (View: 20, DB: 1) | 200 OK [http://localhost/products/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-12-25 23:12:42) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 10) [0m
+Attempt to acces invalid product 10
+Redirected to http://localhost:3000/products
+Completed in 22ms (DB: 1) | 302 Found [http://localhost/products/10]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-25 23:12:42) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 54ms (View: 33, DB: 1) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2010-12-25 23:12:48) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering template within layouts/products
+Rendering products/edit
+Completed in 39ms (View: 29, DB: 1) | 200 OK [http://localhost/products/3/edit]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-12-25 23:12:53) [GET]
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 47ms (View: 35, DB: 1) | 200 OK [http://localhost/products]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:12:59) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.5ms)
+Completed in 43ms (View: 24, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:13:02) [GET]
+  [4;36;1mProduct Load (1.1ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.3ms)
+Completed in 43ms (View: 24, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:13:05) [GET]
+  [4;35;1mProduct Load (1.1ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (1.1ms)
+Rendered store/_cart (6.1ms)
+Completed in 50ms (View: 28, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:13:08) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.7ms)
+Completed in 47ms (View: 26, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:36:26) [GET]
+  Parameters: {"method"=>"post", "id"=>"2"}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Redirected to http://localhost:3000/store
+Completed in 20ms (DB: 1) | 302 Found [http://localhost/store/add_to_cart/2?method=post]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:36:26) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart (5.6ms)
+Completed in 43ms (View: 24, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:36:28) [GET]
+  Parameters: {"method"=>"post", "id"=>"4"}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Redirected to http://localhost:3000/store
+Completed in 20ms (DB: 1) | 302 Found [http://localhost/store/add_to_cart/4?method=post]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:36:29) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.7ms)
+Rendered store/_cart (5.2ms)
+Completed in 42ms (View: 23, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:36:30) [GET]
+  Parameters: {"method"=>"post", "id"=>"3"}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Redirected to http://localhost:3000/store
+Completed in 21ms (DB: 1) | 302 Found [http://localhost/store/add_to_cart/3?method=post]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:36:31) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.5ms)
+Completed in 43ms (View: 24, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:40:04) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (6.8ms)
+Completed in 62ms (View: 44, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:50:04) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.8ms)
+Completed in 59ms (View: 41, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:50:08) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.7ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.7ms)
+Completed in 40ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:50:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"3", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.5ms)
+Completed in 33ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:50:13) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart (11.2ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:50:14) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"4", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.0ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/4]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-25 23:50:24) [GET]
+  Parameters: {"method"=>"post", "id"=>"2"}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.2ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.0ms)
+Completed in 39ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2?method=post]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:53:08) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined method `form_remot_tag' for #<ActionView::Base:0xb7408ab4>) on line #7 of app/views/store/index.html.erb:
+4: <% end  %>
+5: <% for product in @products  %>
+6:         <div class="entry">
+7:                 <% form_remot_tag :url => {:action => 'add_to_cart', :id => product} do  %>
+8:                         <%= submit_tag image_tag(product.image_url) %>
+9:                 <% end  %>
+10:                 <h3 id=""><%= h product.title %></h3>
+
+    app/views/store/index.html.erb:7
+    app/views/store/index.html.erb:5:in `each'
+    app/views/store/index.html.erb:5
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (103.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:55:13) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined method `form_remot_tag' for #<ActionView::Base:0xb6b05a84>) on line #7 of app/views/store/index.html.erb:
+4: <% end  %>
+5: <% for product in @products  %>
+6:         <div class="entry">
+7:                 <% form_remot_tag :url => {:action => 'add_to_cart', :id => product} do  %>
+8:                         <%= submit_tag "dd" %>
+9:                 <% end  %>
+10:                 <h3 id=""><%= h product.title %></h3>
+
+    app/views/store/index.html.erb:7
+    app/views/store/index.html.erb:5:in `each'
+    app/views/store/index.html.erb:5
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (191.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:55:15) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined method `form_remot_tag' for #<ActionView::Base:0xb6c1b734>) on line #7 of app/views/store/index.html.erb:
+4: <% end  %>
+5: <% for product in @products  %>
+6:         <div class="entry">
+7:                 <% form_remot_tag :url => {:action => 'add_to_cart', :id => product} do  %>
+8:                         <%= submit_tag "dd" %>
+9:                 <% end  %>
+10:                 <h3 id=""><%= h product.title %></h3>
+
+    app/views/store/index.html.erb:7
+    app/views/store/index.html.erb:5:in `each'
+    app/views/store/index.html.erb:5
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (170.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:55:32) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.6ms)
+Completed in 68ms (View: 50, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:56:01) [GET]
+  [4;36;1mProduct Load (1.8ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+
+ActionView::TemplateError (undefined method `submit_image' for #<ActionView::Base:0xb6bab394>) on line #8 of app/views/store/index.html.erb:
+5: <% for product in @products  %>
+6:         <div class="entry">
+7:                 <% form_remote_tag :url => {:action => 'add_to_cart', :id => product} do  %>
+8:                         <%= submit_image image_tag(product.image_url) %>
+9:                 <% end  %>
+10:                 <h3 id=""><%= h product.title %></h3>
+11:                 <%= product.description %>
+
+    app/views/store/index.html.erb:8
+    app/views/store/index.html.erb:7
+    app/views/store/index.html.erb:5:in `each'
+    app/views/store/index.html.erb:5
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (182.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:56:41) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.4ms)
+Completed in 67ms (View: 49, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:56:41) [GET]
+  Parameters: {"1293279563\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/images/%3Cimg%20alt=%22Auto%22%20src=%22/images/auto.jpg" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:56:41) [GET]
+  Parameters: {"1293279563\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/images/%3Cimg%20alt=%22Utc%22%20src=%22/images/utc.jpg" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:56:41) [GET]
+  Parameters: {"1293279563\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/images/%3Cimg%20alt=%22Svn%22%20src=%22/images/svn.jpg" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:56:41) [GET]
+  Parameters: {"1293279563\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/images/%3Cimg%20alt=%22Svn%22%20src=%22/images/svn.jpg" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:56:42) [GET]
+  Parameters: {"1293279563\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/images/%3Cimg%20alt=%22Auto%22%20src=%22/images/auto.jpg" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-25 23:56:42) [GET]
+  Parameters: {"1293279563\" />"=>nil}
+
+ActionController::RoutingError (No route matches "/images/%3Cimg%20alt=%22Utc%22%20src=%22/images/utc.jpg" with {:method=>:get}):
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/rafal/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:56:54) [GET]
+  [4;36;1mProduct Load (1.8ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.5ms)
+Completed in 70ms (View: 50, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-25 23:57:19) [GET]
+  [4;35;1mProduct Load (1.1ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.3ms)
+Completed in 70ms (View: 51, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:00:45) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.6ms)
+Completed in 69ms (View: 49, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:02:10) [GET]
+  [4;35;1mProduct Load (1.1ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.8ms)
+Completed in 85ms (View: 66, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:02:24) [GET]
+  [4;36;1mProduct Load (1.5ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (2.0ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (14.1ms)
+Completed in 186ms (View: 157, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:03:00) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.3ms)
+Completed in 66ms (View: 48, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:03:20) [GET]
+  [4;36;1mProduct Load (1.1ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (1.0ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart (6.4ms)
+Completed in 141ms (View: 122, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:04:07) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.7ms)
+Completed in 75ms (View: 56, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:05:08) [GET]
+  [4;36;1mProduct Load (1.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (5.5ms)
+Completed in 66ms (View: 47, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-12-26 00:07:46) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE="}
+Redirected to http://localhost:3000/store
+Completed in 18ms (DB: 1) | 302 Found [http://localhost/store/empty_cart]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:07:46) [GET]
+  [4;35;1mProduct Load (1.1ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.1ms)
+Completed in 51ms (View: 37, DB: 1) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:49) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.2ms)
+Completed in 34ms (View: 17, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:50) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.4ms)
+Rendered store/_cart (77.1ms)
+Completed in 98ms (View: 79, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:50) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.3ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:51) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:51) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:51) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (8.9ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:51) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.0ms)
+Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:51) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (79.6ms)
+Rendered store/_cart (82.5ms)
+Completed in 104ms (View: 85, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:52) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.7ms)
+Rendered store/_cart (9.4ms)
+Completed in 31ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:53) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.2ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:53) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.0ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:53) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:53) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (8.9ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:53) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (81.3ms)
+Completed in 102ms (View: 83, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:54) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.8ms)
+Rendered store/_cart (9.5ms)
+Completed in 32ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:54) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:54) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:54) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.0ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:54) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (8.8ms)
+Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:54) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (82.0ms)
+Completed in 103ms (View: 84, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:55) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.1ms)
+Rendered store/_cart (9.9ms)
+Completed in 37ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:55) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart (9.3ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:55) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.1ms)
+Completed in 32ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:55) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.0ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:56) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.0ms)
+Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:57) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:57) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.8ms)
+Rendered store/_cart (9.6ms)
+Completed in 32ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:58) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart (9.4ms)
+Completed in 31ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:58) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.8ms)
+Rendered store/_cart (9.5ms)
+Completed in 32ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:58) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.2ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:58) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.4ms)
+Rendered store/_cart (16.2ms)
+Completed in 39ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:58) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.2ms)
+Rendered store/_cart (13.9ms)
+Completed in 36ms (View: 16, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:58) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.2ms)
+Rendered store/_cart (21.2ms)
+Completed in 50ms (View: 26, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:59) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.9ms)
+Rendered store/_cart (19.6ms)
+Completed in 51ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:59) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.8ms)
+Rendered store/_cart (16.2ms)
+Completed in 42ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:59) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.0ms)
+Rendered store/_cart (19.3ms)
+Completed in 46ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:59) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.0ms)
+Rendered store/_cart (18.3ms)
+Completed in 44ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:07:59) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (99.9ms)
+Rendered store/_cart (103.9ms)
+Completed in 130ms (View: 108, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:00) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.8ms)
+Rendered store/_cart (15.8ms)
+Completed in 42ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:00) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.9ms)
+Rendered store/_cart (14.7ms)
+Completed in 41ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:00) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:00) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.3ms)
+Rendered store/_cart (18.4ms)
+Completed in 44ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:00) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.6ms)
+Rendered store/_cart (14.9ms)
+Completed in 40ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:00) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (87.9ms)
+Rendered store/_cart (92.1ms)
+Completed in 114ms (View: 95, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:01) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.6ms)
+Completed in 33ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:01) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.0ms)
+Rendered store/_cart (19.7ms)
+Completed in 46ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:01) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (9.0ms)
+Completed in 33ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:01) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.5ms)
+Rendered store/_cart (15.5ms)
+Completed in 40ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:01) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.1ms)
+Rendered store/_cart (15.1ms)
+Completed in 40ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:01) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.1ms)
+Rendered store/_cart (18.1ms)
+Completed in 120ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:02) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.3ms)
+Completed in 31ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:02) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.9ms)
+Rendered store/_cart (18.5ms)
+Completed in 46ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:02) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (8.9ms)
+Completed in 34ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:02) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (21.9ms)
+Rendered store/_cart (25.3ms)
+Completed in 49ms (View: 29, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:02) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (9.1ms)
+Completed in 38ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:02) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.3ms)
+Rendered store/_cart (19.1ms)
+Completed in 120ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:03) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.5ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.5ms)
+Rendered store/_cart (16.2ms)
+Completed in 39ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:03) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.8ms)
+Rendered store/_cart (14.4ms)
+Completed in 43ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:03) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.1ms)
+Rendered store/_cart (10.1ms)
+Completed in 36ms (View: 16, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:03) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.6ms)
+Rendered store/_cart (18.1ms)
+Completed in 42ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:03) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.5ms)
+Rendered store/_cart (10.3ms)
+Completed in 36ms (View: 15, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:03) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.6ms)
+Rendered store/_cart (18.1ms)
+Completed in 121ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:04) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.2ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:04) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.7ms)
+Rendered store/_cart (19.2ms)
+Completed in 44ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:04) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 33ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:04) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.3ms)
+Rendered store/_cart (18.6ms)
+Completed in 44ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:04) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart (10.7ms)
+Completed in 36ms (View: 16, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:04) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.7ms)
+Rendered store/_cart (18.2ms)
+Completed in 120ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.3ms)
+Rendered store/_cart (14.2ms)
+Completed in 37ms (View: 17, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.0ms)
+Rendered store/_cart (17.0ms)
+Completed in 43ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.5ms)
+Rendered store/_cart (15.0ms)
+Completed in 42ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.3ms)
+Rendered store/_cart (15.0ms)
+Completed in 39ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.2ms)
+Rendered store/_cart (23.6ms)
+Completed in 55ms (View: 28, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:05) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart (9.4ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:06) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.5ms)
+Rendered store/_cart (23.3ms)
+Completed in 51ms (View: 27, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:06) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.0ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:06) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (21.3ms)
+Rendered store/_cart (25.0ms)
+Completed in 49ms (View: 28, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:06) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.6ms)
+Rendered store/_cart (11.5ms)
+Completed in 37ms (View: 16, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:06) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.6ms)
+Rendered store/_cart (19.2ms)
+Completed in 47ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:06) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart (9.3ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:07) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.3ms)
+Rendered store/_cart (20.2ms)
+Completed in 45ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:07) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (9.0ms)
+Completed in 34ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:07) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.9ms)
+Rendered store/_cart (16.9ms)
+Completed in 41ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:07) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.8ms)
+Rendered store/_cart (18.2ms)
+Completed in 43ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:07) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.0ms)
+Rendered store/_cart (20.6ms)
+Completed in 52ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:08) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.0ms)
+Rendered store/_cart (14.3ms)
+Completed in 41ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:08) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.7ms)
+Rendered store/_cart (18.1ms)
+Completed in 44ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:08) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.3ms)
+Rendered store/_cart (11.0ms)
+Completed in 37ms (View: 17, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:08) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.7ms)
+Rendered store/_cart (14.7ms)
+Completed in 39ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:08) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (20.4ms)
+Rendered store/_cart (23.8ms)
+Completed in 47ms (View: 27, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:08) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.9ms)
+Rendered store/_cart (16.5ms)
+Completed in 47ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:09) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:09) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.6ms)
+Rendered store/_cart (20.5ms)
+Completed in 45ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:09) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart (10.4ms)
+Completed in 36ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:09) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (17.1ms)
+Rendered store/_cart (21.0ms)
+Completed in 45ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:09) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.9ms)
+Rendered store/_cart (12.5ms)
+Completed in 39ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:09) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.0ms)
+Rendered store/_cart (18.8ms)
+Completed in 46ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:10) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:10) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.9ms)
+Rendered store/_cart (19.6ms)
+Completed in 45ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:10) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.2ms)
+Rendered store/_cart (8.9ms)
+Completed in 33ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:10) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.7ms)
+Rendered store/_cart (18.8ms)
+Completed in 42ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:10) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.6ms)
+Rendered store/_cart (12.4ms)
+Completed in 37ms (View: 16, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:10) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.9ms)
+Rendered store/_cart (18.5ms)
+Completed in 45ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:11) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.8ms)
+Rendered store/_cart (9.6ms)
+Completed in 33ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:11) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.6ms)
+Rendered store/_cart (19.4ms)
+Completed in 48ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:11) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.1ms)
+Completed in 33ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:11) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.8ms)
+Rendered store/_cart (20.2ms)
+Completed in 44ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:11) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (9.3ms)
+Completed in 35ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:11) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.6ms)
+Rendered store/_cart (19.4ms)
+Completed in 44ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:12) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.5ms)
+Rendered store/_cart (21.9ms)
+Completed in 47ms (View: 26, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:12) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.8ms)
+Rendered store/_cart (16.6ms)
+Completed in 42ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:12) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 33ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:12) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.9ms)
+Rendered store/_cart (17.4ms)
+Completed in 41ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:12) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.7ms)
+Rendered store/_cart (20.9ms)
+Completed in 45ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:12) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.2ms)
+Rendered store/_cart (19.6ms)
+Completed in 48ms (View: 25, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:13) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (12.9ms)
+Completed in 41ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:13) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.1ms)
+Rendered store/_cart (18.8ms)
+Completed in 43ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:13) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.2ms)
+Rendered store/_cart (8.8ms)
+Completed in 35ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:13) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.4ms)
+Rendered store/_cart (24.5ms)
+Completed in 49ms (View: 28, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:13) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.7ms)
+Rendered store/_cart (13.8ms)
+Completed in 38ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:13) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.4ms)
+Rendered store/_cart (20.3ms)
+Completed in 45ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:14) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.7ms)
+Rendered store/_cart (16.9ms)
+Completed in 43ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:14) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.3ms)
+Rendered store/_cart (18.8ms)
+Completed in 41ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:14) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (20.3ms)
+Rendered store/_cart (24.1ms)
+Completed in 47ms (View: 27, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:14) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.1ms)
+Rendered store/_cart (16.1ms)
+Completed in 42ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:14) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.2ms)
+Rendered store/_cart (17.7ms)
+Completed in 42ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:14) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (8.1ms)
+Rendered store/_cart (12.2ms)
+Completed in 39ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:15) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.3ms)
+Rendered store/_cart (19.9ms)
+Completed in 46ms (View: 23, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:15) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (9.5ms)
+Completed in 35ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:15) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.2ms)
+Rendered store/_cart (18.0ms)
+Completed in 42ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:15) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.3ms)
+Rendered store/_cart (13.2ms)
+Completed in 37ms (View: 17, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:15) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (25.7ms)
+Rendered store/_cart (29.5ms)
+Completed in 53ms (View: 33, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:15) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.2ms)
+Rendered store/_cart (13.7ms)
+Completed in 40ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:16) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.2ms)
+Rendered store/_cart (15.9ms)
+Completed in 44ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:16) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (11.5ms)
+Completed in 38ms (View: 15, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:16) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.2ms)
+Rendered store/_cart (16.0ms)
+Completed in 40ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:16) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.0ms)
+Rendered store/_cart (17.6ms)
+Completed in 42ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:16) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.6ms)
+Rendered store/_cart (16.2ms)
+Completed in 40ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:16) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.2ms)
+Rendered store/_cart (16.7ms)
+Completed in 44ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:17) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.9ms)
+Rendered store/_cart (14.2ms)
+Completed in 40ms (View: 17, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:17) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.2ms)
+Rendered store/_cart (10.2ms)
+Completed in 36ms (View: 15, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:17) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.8ms)
+Rendered store/_cart (18.3ms)
+Completed in 43ms (View: 22, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:17) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.9ms)
+Rendered store/_cart (17.4ms)
+Completed in 41ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:17) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.4ms)
+Rendered store/_cart (13.1ms)
+Completed in 133ms (View: 111, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:17) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.4ms)
+Rendered store/_cart (14.3ms)
+Completed in 43ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:18) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.5ms)
+Rendered store/_cart (22.0ms)
+Completed in 48ms (View: 25, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:18) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.6ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.1ms)
+Completed in 33ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:18) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.9ms)
+Rendered store/_cart (17.0ms)
+Completed in 41ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:18) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.0ms)
+Rendered store/_cart (18.0ms)
+Completed in 42ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:18) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.6ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (9.4ms)
+Rendered store/_cart (91.4ms)
+Completed in 115ms (View: 95, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:18) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (15.7ms)
+Rendered store/_cart (19.9ms)
+Completed in 46ms (View: 24, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:19) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (16.3ms)
+Rendered store/_cart (19.9ms)
+Completed in 49ms (View: 26, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:19) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (9.0ms)
+Completed in 33ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:19) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.7ms)
+Rendered store/_cart (17.4ms)
+Completed in 41ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:19) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.4ms)
+Rendered store/_cart (14.3ms)
+Completed in 38ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:19) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (107.0ms)
+Rendered store/_cart (111.3ms)
+Completed in 144ms (View: 115, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:20) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.3ms)
+Rendered store/_cart (22.0ms)
+Completed in 46ms (View: 25, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:20) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.0ms)
+Rendered store/_cart (15.6ms)
+Completed in 53ms (View: 29, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:20) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (24.3ms)
+Rendered store/_cart (28.1ms)
+Completed in 57ms (View: 31, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:20) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.6ms)
+Rendered store/_cart (15.6ms)
+Completed in 44ms (View: 18, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:20) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (21.0ms)
+Rendered store/_cart (25.2ms)
+Completed in 53ms (View: 30, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:21) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.4ms)
+Rendered store/_cart (15.4ms)
+Completed in 127ms (View: 107, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:21) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.7ms)
+Rendered store/_cart (16.8ms)
+Completed in 41ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:21) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (14.0ms)
+Rendered store/_cart (17.9ms)
+Completed in 42ms (View: 21, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:21) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.3ms)
+Rendered store/_cart (17.2ms)
+Completed in 42ms (View: 20, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:21) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (12.3ms)
+Rendered store/_cart (18.5ms)
+Completed in 55ms (View: 25, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:21) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.2ms)
+Rendered store/_cart (8.9ms)
+Completed in 29ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:22) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (13.9ms)
+Rendered store/_cart (18.2ms)
+Completed in 123ms (View: 25, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:22) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.9ms)
+Rendered store/_cart (15.9ms)
+Completed in 50ms (View: 28, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:22) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.5ms)
+Rendered store/_cart (22.4ms)
+Completed in 49ms (View: 26, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:22) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (18.5ms)
+Rendered store/_cart (23.2ms)
+Completed in 46ms (View: 27, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:22) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (10.6ms)
+Rendered store/_cart (13.4ms)
+Completed in 37ms (View: 17, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:22) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (31.3ms)
+Rendered store/_cart (42.7ms)
+Completed in 69ms (View: 46, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:23) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (11.6ms)
+Rendered store/_cart (15.3ms)
+Completed in 129ms (View: 19, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:23) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (22.4ms)
+Rendered store/_cart (26.1ms)
+Completed in 50ms (View: 29, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:23) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.9ms)
+Rendered store/_cart (10.7ms)
+Completed in 36ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:23) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (11.8ms)
+Completed in 35ms (View: 15, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:23) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart (9.2ms)
+Completed in 31ms (View: 12, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:24) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart (8.9ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:24) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (84.2ms)
+Rendered store/_cart (87.2ms)
+Completed in 115ms (View: 89, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-12-26 00:08:33) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE="}
+Redirected to http://localhost:3000/store
+Completed in 19ms (DB: 1) | 302 Found [http://localhost/store/empty_cart]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:08:33) [GET]
+  [4;35;1mProduct Load (1.2ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.9ms)
+Completed in 56ms (View: 39, DB: 2) | 200 OK [http://localhost/store]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:35) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.4ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.7ms)
+Rendered store/_cart (9.4ms)
+Completed in 30ms (View: 11, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:36) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"4", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 4) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (10.6ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/4]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:08:36) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"3", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 3) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart_item (72.4ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart (83.2ms)
+Completed in 104ms (View: 86, DB: 1) | 200 OK [http://localhost/store/add_to_cart/3]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:07) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.5ms)
+Completed in 33ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:08) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.3ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:08) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.1ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:08) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.1ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.7ms)
+Rendered store/_cart (10.8ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:09) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.2ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (10.8ms)
+Completed in 31ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:09) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.1ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (12.3ms)
+Completed in 106ms (View: 15, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:09) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.8ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart (12.0ms)
+Completed in 33ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:09) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.4ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.4ms)
+Completed in 33ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.2ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.1ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (10.8ms)
+Completed in 31ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:10) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.3ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.0ms)
+Completed in 32ms (View: 13, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:11) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;36;1mProduct Load (0.3ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (7.0ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (12.1ms)
+Completed in 34ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#add_to_cart (for 127.0.0.1 at 2010-12-26 00:12:11) [POST]
+  Parameters: {"commit"=>"Add to Cart", "authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE=", "id"=>"2", "_"=>""}
+  [4;35;1mProduct Load (0.4ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 2) [0m
+Rendering store/add_to_cart
+Rendered store/_cart_item (6.6ms)
+Rendered store/_cart_item (0.9ms)
+Rendered store/_cart_item (0.8ms)
+Rendered store/_cart (11.9ms)
+Completed in 33ms (View: 14, DB: 1) | 200 OK [http://localhost/store/add_to_cart/2]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#empty_cart (for 127.0.0.1 at 2010-12-26 00:14:29) [POST]
+  Parameters: {"authenticity_token"=>"wEkF8au2AXfkqcLJ3R6ONeRBppZxgDWXz4Bli8Q1HLE="}
+Redirected to http://localhost:3000/store
+Completed in 17ms (DB: 1) | 302 Found [http://localhost/store/empty_cart]
+DEPRECATION WARNING: protect_from_forgery only takes :only and :except options now. :digest and :secret have no effect. (called from /home/rafal/public_html/rubyonrails/depot/app/controllers/application_controller.rb:6)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-12-26 00:14:29) [GET]
+  [4;36;1mProduct Load (1.1ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Rendered store/_cart (2.2ms)
+Completed in 50ms (View: 37, DB: 1) | 200 OK [http://localhost/store]
