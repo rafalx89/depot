@@ -9,10 +9,11 @@ class StoreController < ApplicationController
   def add_to_cart
           product = Product.find(params[:id])
           @cart = find_cart
-          @cart.add_product(product)
-          session[:count]=0
+          session[:count]=0 # zerowanie liczby wejsc na strone 
+          @current_item = @cart.add_product(product)
           respond_to do |format|
-                  format.js
+                  format.js if request.xhr?
+                  format.html{redirect_to_index}
           end
   rescue ActiveRecord::RecordNotFound
           logger.error("Attempt to access i nvalid product #{params[:id]}")
@@ -21,11 +22,30 @@ class StoreController < ApplicationController
 
   def empty_cart
           session[:cart]=nil
-          flash[:notice]= "Your cart is currently empty"
-          redirect_to_index("Your cart is currentyl empty")
+          
+          respond_to do |format|
+                  format.js if request.xhr?
+                  format.html{redirect_to_index}
+          end
+  end
+  def delete_from_cart
+        begin
+          product = Product.find(params[:id])
+        rescue ActiveRecord::RecordNotFound
+                logger.error("Attempt to access invalid product #{params[:id]}")
+                redirect_to_index
+        else
+          @cart = find_cart
+          @current_item = @cart.subb_product(product)
+          respond_to do |format|
+                  format.js if request.xhr?
+                  format.html{redirect_to_index}
+          end
+        end
   end
 
 private 
+
   def find_cart
           session[:cart] ||=Cart.new
   end

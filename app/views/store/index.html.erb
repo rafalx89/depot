@@ -2,9 +2,7 @@
 <% if @counter > 5  %>
         You visit this page <%=pluralize @counter, 'time' %>.
 <% end  %>
-<% i=0  %>
 <% for product in @products  %>
-        <% if i<3  %>
         <div class="entry">
                 <% form_remote_tag :url => {:action => 'add_to_cart', :id => product} do  -%>
                         <%= image_submit_tag(product.image_url) -%>
@@ -19,6 +17,5 @@
                 </div>
                 <br/>
         </div>
-        <% i+=1  %>
-        <% end  %>
+
 <% end  %>

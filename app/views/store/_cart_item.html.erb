@@ -1,5 +1,10 @@
-<tr>
-        <td><%= cart_item.quantity %></td>
+<% if cart_item == @current_item  %>
+        <tr id="current_item">
+<% else  %>
+        <tr>
+<% end  %>
+<td><%= link_to_remote "Remove",:url=> {:action => "delete_from_cart", :id => cart_item.product}  %> </td>
+        <td><%= cart_item.quantity %>&times;</td>
         <td><%= h cart_item.title %></td>
         <td class="item-price"><%= number_to_currency(cart_item.price) %></td>
 </tr>
