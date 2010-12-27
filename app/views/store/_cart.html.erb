@@ -9,8 +9,10 @@
                 <td class="total-cell"><%= number_to_currency(cart.total_price) %></td>
         </tr>
 </table>
-
-<% form_remote_tag :url => {:action => :empty_cart}  do %>
-<%= submit_tag "Empty cart" %>
+<% if @spr_checkout!=true  %>
+        <%= button_to "Checkout", :action => 'checkout' %>
+        <% form_remote_tag :url => {:action => :empty_cart}  do %>
+                <%= submit_tag "Empty cart" %>
+        <% end  %>
 <% end  %>
 
