@@ -1,0 +1,60 @@
+pl:
+        flash:
+                thanks: "Dziękujemy za zamówienie"
+        activerecord:
+                models:
+                        order: "zamowienie"
+                attributes:
+                        order:
+                                address: "Adres"
+                                name: "Nazwa"
+                                email: "E-mail"
+                                pay_type: "Forma płatności"
+                errors:
+                        template:
+                                body: "Wystąpiły błędy z następującymi polami"
+                                header:
+                                        one: "Wystąpił 1 błąd"
+                                        other: "{{count}} błędów"
+                        messages: 
+                                inclusion: "nie został wybrany z listy"
+                                blank: "nie może być pusta"
+
+        checkout:
+                legend: "Prosze podać swoje dane"
+                name: "Nazwa"
+                address: "Adres"
+                email: "E-mail"
+                pay_type: "Sposób płatności"
+                pay_prompt: "Wybierz formę płatności"
+                submit: "Wyślij zamówienie"
+
+        layout:
+                
+                cart:
+                        title: "Twoja Karta"
+                        button: 
+                                empty: "Opróżnij kartę"
+                                checkout: "Zamów"
+
+                title: "Publikacje Wydawnictwa Pragmatic"
+                side:
+                        home: "Home"
+                        questions: "Pytania"
+                        news: "Nowości"
+                        contact: "Kontakt"
+
+        main:
+                title: "Katalog Wydawnictwa Pragmatic"
+                button:
+                        add: "Dodaj do karty"
+
+        number: 
+                currency:
+                        format:
+                                unit: "$US"
+                                precision: 2
+                                separator: "."
+                                delimiter: ","
+                                format: "%u&nbsp;%n"
+                        

@@ -4,7 +4,7 @@
         <tr>
 <% end  %>
 <td> <% if @spr_checkout !=true  %>
-                <%= link_to_remote "Remove",:url=> {:action => "delete_from_cart", :id => cart_item.product}  %>
+                <%= link_to_remote "RM",:url=> {:action => "delete_from_cart", :id => cart_item.product}  %>
         <% end  %>
 </td>
         <td><%= cart_item.quantity %>&times;</td>

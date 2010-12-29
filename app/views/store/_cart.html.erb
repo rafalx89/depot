@@ -1,5 +1,5 @@
 <div class="cart-title">
-        Your Cart        
+        <%= I18n.t 'layout.cart.title' %>        
 </div>
 
 <table>
@@ -10,9 +10,9 @@
         </tr>
 </table>
 <% if @spr_checkout!=true  %>
-        <%= button_to "Checkout", :action => 'checkout' %>
+        <%= button_to I18n.t('layout.cart.button.checkout'), :action => 'checkout' %>
         <% form_remote_tag :url => {:action => :empty_cart}  do %>
-                <%= submit_tag "Empty cart" %>
+                <%= submit_tag I18n.t('layout.cart.button.empty') %>
         <% end  %>
 <% end  %>
 
